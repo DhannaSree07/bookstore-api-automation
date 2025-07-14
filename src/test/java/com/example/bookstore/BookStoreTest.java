@@ -9,22 +9,6 @@ import io.restassured.http.ContentType;
 import static io.restassured.RestAssured.*;
 
 public class BookStoreTest {
-//    @Test
-//    public void testGetBooks() {
-//        RestAssured.baseURI = "https://demoqa.com/BookStore/v1/Books";
-//
-//        given()
-//        .when()
-//            .get()
-//        .then()
-//            .statusCode(200)
-//            .body("books", not(empty()));
-//        System.out.println("Successfully completed");
-//    }
-//    
-	
-
-
 
 	    static {
 	        RestAssured.baseURI = "https://demoqa.com/BookStore/v1";
@@ -101,6 +85,7 @@ public class BookStoreTest {
 	        .then()
 	            .statusCode(401); // Unauthorized again (expected)
 	        System.out.println("Delete Request completed");
+	        
 	    }
 	}
 
