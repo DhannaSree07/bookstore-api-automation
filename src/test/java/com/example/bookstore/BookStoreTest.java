@@ -87,5 +87,10 @@ public class BookStoreTest {
 	        System.out.println("Delete Request completed");
 	        
 	    }
+	@Test
+public void testBookSearchFails() {
+    Assert.assertEquals(1, 2);  // force failure
+}
+
 	}
 
