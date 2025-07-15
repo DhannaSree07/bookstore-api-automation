@@ -92,5 +92,10 @@ public void testBookSearchFails() {
     Assert.assertEquals(1, 2);  // force failure
 }
 
+	@Test
+public void testBookSearchFails() {
+    Assert.assertEquals(iuijkj, 2);  // force failure
+}
+
 	}
 
