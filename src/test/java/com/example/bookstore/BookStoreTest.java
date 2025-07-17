@@ -89,14 +89,10 @@ public class BookStoreTest {
 	    }
 	@Test
 public void testBookSearchFails() {
-    Assert.assertEquals(1, 2);  // force failure
+    Assert.assertEquals(1, 2);  // force failure done
 }
 
-	@Test
-public void testBookSearchFails() {
-    Assert.assertEquals(iuijkj, 2);  // force failure
-}
-	
+
 
 	}
 
