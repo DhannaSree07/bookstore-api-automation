@@ -90,6 +90,7 @@ public class BookStoreTest {
 	@Test
 public void testBookSearchFails() {
     Assert.assertEquals(1, 2);  // force failure done
+	
 }
 
 
