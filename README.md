@@ -29,12 +29,16 @@ The tests run automatically on every push to `main` via `.github/workflows/run-t
 
 ## 🌐 API Reference
 Public API: https://demoqa.com/BookStore/v1/Books
-
+      
 ## 📬 n8n Integration
 n8n listens for webhook calls from GitHub
 If the test suite fails, it sends an email notification with the failure details
 This enables proactive monitoring of CI pipeline results without manual checking
+<img width="875" height="389" alt="Screenshot 2025-07-17 125550" src="https://github.com/user-attachments/assets/02e4af43-b94c-4b93-827d-12ac2361e608" />
+<img width="1140" height="544" alt="image" src="https://github.com/user-attachments/assets/cff453bc-32e7-4674-8cd7-fc57b5d0abe8" />
+
 
 ## ✅ Author
 Dhanna Sree V S
 Passionate QA Automation Engineer | Exploring DevOps & Automation Tools
+
