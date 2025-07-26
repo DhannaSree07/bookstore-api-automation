@@ -24,6 +24,7 @@ This project helped solidify my understanding of event-driven automation and how
 mvn clean test
 ```
 
+
 ## 🚀 GitHub Actions
 The tests run automatically on every push to `main` via `.github/workflows/run-tests.yml`.
 
